@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Custom Gutenberg Blocks V2
- * Plugin Github URI:
+ * Plugin Github URI: https://github.com/aishan-shrestha/custom-gutenberg-blocks
  * Description: Simple starter gutenberg block
  * Author: Aishan
  * Author URI: aishan-shrestha.com.np
