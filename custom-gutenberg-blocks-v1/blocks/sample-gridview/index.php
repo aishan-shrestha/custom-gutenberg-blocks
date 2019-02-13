@@ -25,7 +25,7 @@ function register_block_gridlayout_postype() {
 	wp_register_script(
 		'spl-block-gridlayout-postype-script', // Handle.
 		plugins_url( 'sample-gridview/block.js', dirname( __FILE__ ) ),
-		array( 'wp-blocks', 'wp-element' ) // Dependencies, defined above.
+		array( 'wp-blocks', 'wp-element', 'wp-components', 'wp-editor' ) // Dependencies, defined above.
 	);
 
 
