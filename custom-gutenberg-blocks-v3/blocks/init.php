@@ -40,7 +40,7 @@ function enqueue_block_editor_assets() {
 	wp_enqueue_script(
 		'handler-block-js', // Handle.
 		plugins_url( '/blocks/dist/blocks.build.js', dirname( __FILE__ ) ), // Block.build.js: We register the block here. Built with Webpack.
-		array( 'wp-blocks', 'wp-i18n', 'wp-element' ) // Dependencies, defined above.
+		array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-components', 'wp-editor') // Dependencies, defined above.
 	);
 
 	// Styles.
