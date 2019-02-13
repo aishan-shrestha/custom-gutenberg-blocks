@@ -9,7 +9,7 @@ function register_block_current_year_shortcode() {
 	wp_register_script(
 		'spl-block-current-year-shortcode-script', // Handle.
 		plugins_url( 'current-year-shortcode/block.js', dirname( __FILE__ ) ),
-		array( 'wp-blocks', 'wp-element' ) // Dependencies, defined above.
+		array( 'wp-blocks', 'wp-element', 'wp-components', 'wp-editor' ) // Dependencies, defined above.
 	);
 
 	// Styles.
