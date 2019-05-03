@@ -36,7 +36,9 @@
     "shelljs": "*",
     "style-loader": "*",
     "update-notifier": "*",
-    "webpack": "*"
+    "webpack": "*",
+    "tar": ">=4.4.2"
+    
   },
   "babel": {
     "presets": [
