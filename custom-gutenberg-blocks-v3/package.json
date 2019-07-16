@@ -37,7 +37,8 @@
     "style-loader": "*",
     "update-notifier": "*",
     "webpack": "*",
-    "tar": "*"
+    "tar": "*",
+    "lodash": ">=4.17.13"
     
   },
   "babel": {
